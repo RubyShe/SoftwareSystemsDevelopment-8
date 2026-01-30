@@ -1,15 +1,21 @@
 function App() {
-    const { Container, Row, Col } = ReactBootstrap;
-    return (
-        <Container>
-            <Row>
-                <Col md={{ offset: 3, span: 6 }}>
-                    <TodoListCard />
-                </Col>
-            </Row>
-        </Container>
-    );
+  const { Container, Row, Col } = ReactBootstrap;
+
+  return (
+    <>
+      <h1 style={{ textAlign: 'center', margin: '16px 0' }}>RubyShe</h1>
+
+      <Container>
+        <Row>
+          <Col md={{ offset: 3, span: 6 }}>
+            <TodoListCard />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
 }
+
 
 function TodoListCard() {
     const [items, setItems] = React.useState(null);

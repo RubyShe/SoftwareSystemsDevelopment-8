@@ -2,7 +2,7 @@ function App() {
   const { Container, Row, Col } = ReactBootstrap;
 
   return (
-    <>
+    <div>
       <h1 style={{ textAlign: 'center', margin: '16px 0' }}>RubyShe</h1>
 
       <Container>
@@ -12,7 +12,7 @@ function App() {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 }
 
